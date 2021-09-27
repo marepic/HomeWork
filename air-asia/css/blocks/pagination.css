@@ -1,20 +1,23 @@
 .pagination{
   text-align: center;
   margin-bottom: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.pagination__info, .pagination__list {
-  display: inline-block;
-  vertical-align: middle;
-}
 
 .pagination__info {
   margin-right: 36px;
 }
 
+.pagination__list {
+  display: flex;
+  align-items: center;
+}
+
 .pagination__item {
-  display: inline-block;
-  vertical-align: middle;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -22,6 +25,11 @@
   color: #F5170E;
   background: #fff
   ;
+}
+
+.pagination__item--active--red .pagination__link {
+  color: #fff;
+  background: #F5170E;
 }
 
 .pagination__link {

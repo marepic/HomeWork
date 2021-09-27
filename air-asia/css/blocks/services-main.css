@@ -1,0 +1,33 @@
+.services {
+  background: #fff;
+  color: black;
+  padding-top: 98px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.services__list {
+  margin-bottom: 60px;
+}
+
+.serices__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 49px;
+}
+
+.services__content {
+  padding: 9px 0 20px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services__text {
+  padding-right: 5px;
+  line-height: 27px
+}
+
+.pagination--lite {
+  margin-bottom: 87px;
+}

@@ -2,35 +2,46 @@
   height: 552px;
   margin-bottom: 53px;
   position: relative;
+  display: flex;
 }
 
 .about__img {
-  position: absolute;
-  left: 0;
+  align-self: flex-start;
 }
 
-.about__background, .about__content {
-  display: inline-block;
+.adout__content {
+  justify-content: space-between;
+  align-self:stretch;
+  height: 552px;
+  width: 785px;
+  position: relative;
 }
 
 .about__cover {
-  position: absolute;
   top: 97px;
   right: 0;
   z-index: 2;
-  
+  position: absolute;
 }
 
 .about__info {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 167px;
+  height: 319px;
+  right: 207px;
+  max-width: 502px;
+  justify-content: space-between;
+  position: absolute ;
   z-index: 3;
-  left: 435px;
-  right: 202px;
-  bottom: 66px;
+  padding-right: 2px;
+}
+
+.title--dark {
+  margin-bottom: 0;
 }
 
 .about__text{
   color: #060606;
-  margin-bottom: 43px;
-  padding-right: 41px;
+  height: 135px;
 }

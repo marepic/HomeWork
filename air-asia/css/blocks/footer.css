@@ -1,12 +1,25 @@
 .footer-container__content {
+  margin-top: auto;
   border-top: 1px solid #32393bad;
 }
 
 .footer {
-  padding-top: 26px;
+  padding-top: 57px;
   position: relative;
   height: 92px;
   margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  align-items: flex-end;
 }
 
 .contacts__desc {
@@ -24,13 +37,12 @@ h4 {
 .social__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .social {
-  position: absolute;
-  top: 30px;
-  right: 300px;
+margin-right: 74px;
+margin-bottom: 14px;
 }
 
 .social__item:last-child {
