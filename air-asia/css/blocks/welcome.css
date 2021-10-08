@@ -1,0 +1,74 @@
+.wrapper__welcome {
+  background: url(../../img/hello-page.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 1920px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation: zoom 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.container__welcome {
+  background: url(../../img/shades.png);
+  background-repeat: no-repeat;
+  min-width: 591px;
+  min-height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__welcome {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.button--welcome {
+  padding: 18px 58px;
+}
+
+/*.animate__bounceIn;*/

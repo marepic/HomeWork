@@ -129,6 +129,15 @@ img {
   color: #fff;
   }
 
+.button--color--black {
+  background: #8E8E8E;
+
+}
+
+.button--color--black:hover {
+  background: #2B2B2B;
+}
+
 .title {
   font-family: "Open Sans";
   font-style: normal;
