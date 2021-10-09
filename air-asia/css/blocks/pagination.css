@@ -21,13 +21,13 @@
   font-weight: bold;
 }
 
-.pagination__item--active .pagination__link {
+.pagination__item:hover .pagination__link {
   color: #F5170E;
   background: #fff
   ;
 }
 
-.pagination__item--active--red .pagination__link {
+.pagination__item--red:hover .pagination__link {
   color: #fff;
   background: #F5170E;
 }

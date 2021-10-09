@@ -114,6 +114,19 @@ align-items: center;
   top: -29px;
 }
 
+.dropdown-triangle {
+  position: relative;
+}
+
+.dropdown-triangle::after {
+  content: "";
+  position: absolute;
+  right: 26px;
+  top: -34px;
+  border: 10px solid transparent;
+  border-bottom: 12px solid #fff;
+}
+
 .dropdown__ilem {
 font-style: normal;
 font-size: 13px;
